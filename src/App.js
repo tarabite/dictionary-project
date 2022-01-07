@@ -1,16 +1,20 @@
 import React from "react";
-import SearchForm from "./SearchForm";
+import Dictionary from "./Dictionary";
 
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Dictionary</h1>
-        <h2>Type a word to look up...</h2>
-        <SearchForm />
-      </header>
+      <div className="container">
+        <header className="App-header"></header>
+        <main>
+          <Dictionary />
+        </main>
+        <footer className="App-footer">
+          <small>Coded by Tara Diego</small>
+        </footer>
+      </div>
     </div>
   );
 }
