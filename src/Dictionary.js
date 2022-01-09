@@ -6,15 +6,15 @@ import "./Dictionary.css";
 
 export default function Dictionary() {
   let [keyword, setKeyword] = useState("");
+  let [results, setResults] = useState({});
 
   function handleResponse(response) {
     console.log(response.data[0]);
-    console.log(response.data[0].meanings[0].definitions[0].definition);
+    setResults(response.data[0]);
   }
 
   function search(event) {
     event.preventDefault();
-    alert(`Searching for ${keyword}`);
 
     // Using free API from: https://dictionaryapi.dev
     let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${keyword}`;
@@ -32,7 +32,7 @@ export default function Dictionary() {
       <form onSubmit={search}>
         <input type="search" onChange={handleKeywordChange} />
       </form>
-      <Results />
+      <Results results={results} />
     </div>
   );
 }
