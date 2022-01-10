@@ -3,6 +3,8 @@
   --section-color: #fbf2d5;
   --primary-color: #394a51;
   --secondary-color: #7fa99b;
+  --main-font: "Playfair Display", serif;
+  --secondary-font: "Poppins", sans-serif;
 }
 
 .App .container {
@@ -18,4 +20,12 @@
 .App-footer {
   text-align: center;
   margin: 30px 0;
+  color: black;
+}
+.App-footer a {
+  text-decoration: none;
+  color: black;
+}
+.App-footer a:hover {
+  font-weight: bold;
 }

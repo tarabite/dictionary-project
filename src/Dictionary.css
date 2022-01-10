@@ -1,0 +1,31 @@
+:root {
+  --branding-color: #fdc57b;
+  --section-color: #fbf2d5;
+  --primary-color: #394a51;
+  --secondary-color: #7fa99b;
+  --main-font: "Playfair Display", serif;
+  --secondary-font: "Poppins", sans-serif;
+}
+
+.Dictionary h1 {
+  color: var(--primary-color);
+  text-align: center;
+  font-family: var(--main-font);
+  font-size: 48px;
+  background-color: var(--branding-color);
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.Dictionary h2 {
+  margin-top: 20px;
+  text-align: center;
+  font-family: var(--secondary-font);
+  font-size: 24px;
+}
+
+.Dictionary .Form {
+  margin-top: 30px;
+  text-align: center;
+}

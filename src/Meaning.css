@@ -7,9 +7,15 @@
   --secondary-font: "Poppins", sans-serif;
 }
 
-.Results h2 {
-  background-color: var(--branding-color);
-  border-radius: 5px;
+.Meaning {
+  font-family: var(--secondary-font);
+}
+
+.Meaning h3 {
   font-family: var(--main-font);
-  padding: 5px;
+  margin-top: 10px;
+}
+
+.Meaning .Example {
+  opacity: 0.5;
 }
