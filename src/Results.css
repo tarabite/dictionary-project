@@ -9,7 +9,7 @@
 
 .Results h2 {
   background-color: var(--branding-color);
-  border-radius: 5px;
+  border-radius: 10px;
   font-family: var(--main-font);
   padding: 5px;
 }

@@ -13,7 +13,7 @@
   font-family: var(--main-font);
   font-size: 48px;
   background-color: var(--branding-color);
-  border-radius: 5px;
+  border-radius: 10px;
   padding-top: 10px;
   padding-bottom: 20px;
 }
@@ -26,6 +26,6 @@
 }
 
 .Dictionary .Form {
-  margin-top: 30px;
+  margin-top: 20px;
   text-align: center;
 }
