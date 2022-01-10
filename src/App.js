@@ -10,10 +10,30 @@ export default function App() {
         <main>
           <Dictionary />
         </main>
-        <footer className="App-footer">
-          <small>Coded by Tara Diego</small>
-        </footer>
       </div>
+      <footer className="App-footer">
+        <small>
+          Coded by Tara Diego. Hosted on{" "}
+          <a
+            href="https://github.com/tarabite/dictionary-project"
+            alt="Tara Diego's Dictionary project on GitHub"
+            target="blank"
+            title="Click to visit Tara's GitHub profile"
+          >
+            Github
+          </a>{" "}
+          and{" "}
+          <a
+            href="https://agitated-spence-006f7c.netlify.app"
+            alt="Copy and share this link from Netlify"
+            target="blank"
+            title="Click to visit Tara's GitHub profile"
+          >
+            Netlify
+          </a>
+          .
+        </small>
+      </footer>
     </div>
   );
 }

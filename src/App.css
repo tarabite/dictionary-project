@@ -1,6 +1,18 @@
-.App {
-  margin-top: 30px;
+:root {
+  --branding-color: #fdc57b;
+  --section-color: #fbf2d5;
+  --primary-color: #394a51;
+  --secondary-color: #7fa99b;
+}
+
+.App .container {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 10px 10px 15px -15px black;
+  margin: 30px auto;
+  padding: 20px;
   text-align: left;
+  max-width: 500px;
 }
 
 .App-footer {
