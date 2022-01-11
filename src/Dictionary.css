@@ -8,21 +8,21 @@
 }
 
 .Dictionary h1 {
-  color: var(--primary-color);
-  text-align: center;
-  font-family: var(--main-font);
-  font-size: 48px;
   background-color: var(--branding-color);
   border-radius: 10px;
-  padding-top: 10px;
+  color: var(--primary-color);
+  font-family: var(--main-font);
+  font-size: 48px;
   padding-bottom: 20px;
+  padding-top: 10px;
+  text-align: center;
 }
 
-.Dictionary h2 {
+.Prompt h2 {
+  font-family: var(--secondary-font);
+  font-size: 20px;
   margin-top: 20px;
   text-align: center;
-  font-family: var(--secondary-font);
-  font-size: 24px;
 }
 
 .Dictionary .Form {
