@@ -9,7 +9,7 @@
 
 .App .container {
   background-color: var(--section-color);
-  border-radius: 5px;
+  border-radius: 10px;
   box-shadow: 10px 10px 15px -15px black;
   margin: 30px auto;
   max-width: 500px;
