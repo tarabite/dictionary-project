@@ -20,6 +20,15 @@
   font-family: var(--main-font);
 }
 
+.Meaning .Definition {
+  color: var(--primary-color);
+  font-size: 16px;
+  line-height: 1.5;
+}
+
 .Meaning .Example {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-top: 10px;
   opacity: 0.5;
 }

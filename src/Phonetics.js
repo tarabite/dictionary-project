@@ -9,7 +9,7 @@ export default function Phonetics(props) {
         <a href={props.phonetic.audio} target="blank">
           <i class="far fa-play-circle"></i>
         </a>
-      </span>{" "}
+      </span>
       <span className="PhoneticLatin">| {props.phonetic.text} |</span>
     </div>
   );
