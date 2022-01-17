@@ -27,7 +27,7 @@ export default function Photos(props) {
   } else {
     return (
       <div className="Photos">
-        <em>Photos go here...</em>
+        <em>Photos are loading...</em>
       </div>
     );
   }

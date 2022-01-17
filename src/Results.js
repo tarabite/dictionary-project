@@ -28,6 +28,10 @@ export default function Results(props) {
       </div>
     );
   } else {
-    return null;
+    return (
+      <div className="Loading">
+        <em>Loading results...</em>
+      </div>
+    );
   }
 }
