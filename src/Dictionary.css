@@ -40,3 +40,15 @@
   margin-top: 2px;
   opacity: 50%;
 }
+
+@media (max-width: 576px) {
+  .Dictionary h1 {
+    font-size: 32px;
+  }
+  .Prompt h2 {
+    font-size: 18px;
+  }
+  .Dictionary input {
+    font-size: 18px;
+  }
+}

@@ -10,8 +10,10 @@
 .Photos {
   background-color: white;
   border-radius: 10px;
+  margin-bottom: 0;
   margin-top: 20px;
   padding: 20px;
+  text-align: center;
 }
 
 .Photos img {

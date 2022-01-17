@@ -13,7 +13,7 @@ export default function App() {
       </div>
       <footer className="App-footer">
         <small>
-          Coded by Tara Diego. Hosted on{" "}
+          Coded by Tara Diego. Open-sourced on{" "}
           <a
             href="https://github.com/tarabite/dictionary-project"
             alt="Tara Diego's Dictionary project on GitHub"
@@ -21,8 +21,8 @@ export default function App() {
             title="Click to visit Tara's GitHub profile"
           >
             Github
-          </a>{" "}
-          and{" "}
+          </a>
+          . Hosted on{" "}
           <a
             href="https://agitated-spence-006f7c.netlify.app"
             alt="Copy and share this link from Netlify"
