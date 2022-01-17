@@ -43,7 +43,7 @@ export default function App() {
               href="https://agitated-spence-006f7c.netlify.app"
               alt="Copy and share this link from Netlify"
               target="blank"
-              title="Click to visit Tara's GitHub profile"
+              title="Tara's Netlify link"
             >
               Netlify
             </a>
