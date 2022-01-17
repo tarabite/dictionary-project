@@ -15,18 +15,46 @@
   max-width: 800px;
   padding: 20px;
 }
-
 .App-footer {
-  color: black;
   margin: 30px 0;
   text-align: center;
 }
-.App-footer a {
+
+.Credit {
+  color: black;
+}
+
+.WeatherLink a {
   color: black;
   text-decoration: none;
 }
-.App-footer a:hover {
+.WeatherLink a:hover {
+  background-color: var(--branding-color);
+  border-radius: 15px;
   font-weight: bold;
+  padding: 2px 10px;
+}
+
+.Github a {
+  color: black;
+  text-decoration: none;
+}
+.Github a:hover {
+  background-color: var(--branding-color);
+  border-radius: 15px;
+  font-weight: bold;
+  padding: 2px 10px;
+}
+
+.Netlify a {
+  color: black;
+  text-decoration: none;
+}
+.Netlify a:hover {
+  background-color: var(--branding-color);
+  border-radius: 15px;
+  font-weight: bold;
+  padding: 2px 10px;
 }
 
 @media (max-width: 576px) {
